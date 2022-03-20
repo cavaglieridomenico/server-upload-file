@@ -27,10 +27,11 @@ const upload = multer({ storage }).single('file');
 //endpoint upload
 app.post('/upload', (req, res) => {
   upload(req, res, err => {
-    console.log(req.file.filename);
     if (err) {
+      console.log(err);
       return res.status(500).json(err);
     }
+    console.log(req.file.filename);
     return res.status(200).send(req.file);
   });
 });
