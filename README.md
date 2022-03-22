@@ -9,7 +9,7 @@
 # Install dependencies
 $ npm install
 
-# Run the project in dev mode (Webpack Dev Server localhost:3000)
+# Run the server (localhost:8080)
 $ nodemon server.js
 
 ```
