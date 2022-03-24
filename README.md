@@ -19,7 +19,7 @@ $ nodemon server.js
 
 ```
 
-<h3>for Docker container (dev mode)</h3>
+<h3>for Docker container</h3>
 
 Before starting, you need to have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed.
 
