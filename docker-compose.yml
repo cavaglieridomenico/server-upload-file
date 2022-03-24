@@ -1,12 +1,8 @@
-version: '3.4'
-
 services:
   serveruploadfile:
-    image: serveruploadfile
     build:
       context: .
-      dockerfile: ./Dockerfile
-    environment:
-      NODE_ENV: production
+      dockerfile: Dockerfile
     ports:
       - 8080:8080
+    container_name: serveruploadfile_c
